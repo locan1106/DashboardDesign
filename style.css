@@ -308,3 +308,94 @@ main .analytics .item:nth-child(3) {
 main .analytics .item:nth-child(4) {
 	background: #ffd043;
 }
+
+main .separator input {
+	border: none;
+	outline: none;
+	color: #369fff;
+	font-weight: bold;
+	width: 112px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+	opacity: 0.5;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+main .planning {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+main .planning .item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #f7f7f7;
+	border-radius: 20px;
+}
+
+main .planning .item .left {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+main .planning .item .left .icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main .planning .item:nth-child(1) .left .icon {
+	background: #d1e6f9;
+}
+
+main .planning .item:nth-child(1) .left .icon i {
+	color: #369fff;
+}
+
+main .planning .item:nth-child(2) .left .icon {
+	background: #f9e5d2;
+}
+
+main .planning .item:nth-child(2) .left .icon i {
+	color: #ff993a;
+}
+
+main .planning .item:nth-child(3) .left .icon {
+	background: #e2edd2;
+}
+
+main .planning .item:nth-child(3) .left .icon i {
+	color: #8ac53e;
+}
+
+main .planning .item:nth-child(4) .left .icon {
+	background: #f9f0d3;
+}
+
+main .planning .item:nth-child(4) .left .icon i {
+	color: #ffd143;
+}
+
+main .planning .item .left .details h5 {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+main .planning .item .left .details p {
+	font-size: 12px;
+	color: #bdbdbd;
+}
+
+main .planning .item > i {
+	cursor: pointer;
+}
