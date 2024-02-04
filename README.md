@@ -18,4 +18,6 @@ This is the dashboard interface for each screen of different devices.
 
 ### Mobile
 
-![screenshootDesktop](/assets/Screen4.png)
+<p align="center">
+  <img src="/assets/Screen4.png" />
+</p>
