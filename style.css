@@ -251,22 +251,22 @@ main .analytics .item .progress .progress-bar {
 }
 
 main .analytics .item:nth-child(1) .progress .progress-bar {
-	background: radial-gradient(closest-side, #006ed3 79%, transparent 80% 100%),
+	background: radial-gradient(closest-side, #006ed3 75%, transparent 80% 100%),
 		conic-gradient(#208bee 25%, #fff 0%);
 }
 
 main .analytics .item:nth-child(2) .progress .progress-bar {
-	background: radial-gradient(closest-side, #ff993a 79%, transparent 80% 100%),
+	background: radial-gradient(closest-side, #ff993a 75%, transparent 80% 100%),
 		conic-gradient(#ff7e07 50%, #fff 0%);
 }
 
 main .analytics .item:nth-child(3) .progress .progress-bar {
-	background: radial-gradient(closest-side, #8ac53e 79%, transparent 80% 100%),
+	background: radial-gradient(closest-side, #8ac53e 75%, transparent 80% 100%),
 		conic-gradient(#6eb33d 80%, #fff 0%);
 }
 
 main .analytics .item:nth-child(4) .progress .progress-bar {
-	background: radial-gradient(closest-side, #ffd043 79%, transparent 80% 100%),
+	background: radial-gradient(closest-side, #ffd043 75%, transparent 80% 100%),
 		conic-gradient(#ffc000 25%, #fff 0%);
 }
 
@@ -462,4 +462,106 @@ main .planning .item > i {
 
 .container .right-section .top .profile .left .user a {
 	font-size: 12px;
+}
+
+.container .right-section .separator#first {
+	margin-top: 8px;
+}
+
+.container .right-section .separator h4 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.container .right-section .stats {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+.container .right-section .stats .item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 190px;
+	padding: 25px;
+	background-color: #ebf6ff;
+	border-radius: 20px;
+}
+
+.container .right-section .stats .item .top {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.container .right-section .stats .item .top p {
+	font-size: 16px;
+	color: #8ea3b7;
+	font-weight: 500;
+}
+
+.container .right-section .stats .item .bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container .right-section .stats .item .bottom .line {
+	width: 4px;
+	height: 30px;
+	background-color: #369fff;
+	border-radius: 20px;
+}
+
+.container .right-section .stats .item .bottom h3 {
+	font-size: 40px;
+	color: #006ed3;
+}
+
+.container .right-section .weekly {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 12px;
+	background-color: #f7f7f7;
+	border-radius: 16px;
+}
+
+.container .right-section .weekly .title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.container .right-section .weekly .title .line {
+	width: 6px;
+	height: 50px;
+	background-color: #006ed3;
+	border-radius: 20px;
+}
+
+.container .right-section .weekly .h5 {
+	font-size: 16px;
+}
+
+.container .right-section .weekly .progress-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: radial-gradient(closest-side, #fff 75%, transparent 80% 100%),
+		conic-gradient(#006ed3 75%, #ccc 0%);
+}
+
+.container .right-section .weekly .progress-bar::after {
+	content: "3/4";
+	font-size: 14px;
+	color: #000;
 }
