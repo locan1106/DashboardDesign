@@ -399,3 +399,67 @@ main .planning .item .left .details p {
 main .planning .item > i {
 	cursor: pointer;
 }
+
+.container .right-section {
+	padding: 40px 40px 0 40px;
+}
+
+.container .right-section .top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container .right-section .top > i {
+	color: #909090;
+	position: relative;
+	cursor: pointer;
+}
+
+.container .right-section .top > i::after {
+	position: absolute;
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #eb5757;
+	right: 0;
+	top: 0;
+}
+
+.container .right-section .top .profile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #ebf6ff;
+	width: 244px;
+	height: 60px;
+	border-radius: 16px;
+}
+
+.container .right-section .top .profile .left {
+	display: flex;
+	gap: 15px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.container .right-section .top .profile > i {
+	cursor: pointer;
+}
+
+.container .right-section .top .profile .left img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.container .right-section .top .profile .left .user h5 {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.container .right-section .top .profile .left .user a {
+	font-size: 12px;
+}
