@@ -675,8 +675,10 @@ main .planning .item > i {
 		right: 0;
 		left: 0;
 		width: 100%;
-		padding: 20px;
+		padding: 10px 20px;
 		z-index: 100;
+		background-color: #fff;
+		box-shadow: 0 4px 6px -6px #222;
 	}
 
 	.container .right-section .weekly {
